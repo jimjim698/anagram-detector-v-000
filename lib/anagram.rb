@@ -17,8 +17,9 @@ split_words.each do |word|
     new_array<<split_letters.join
   end
 end
+end
 new_array
-  
+
 end
 
 
