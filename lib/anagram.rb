@@ -12,7 +12,7 @@ def match(words)
 split_name = @name.split("")
 words.each do |word|
   split_letters = word.split("")
-  if split_name.sort == split_letters
+  if split_name.sort == split_letters.sort
     new_array<<split_letters.join
   end
 end
