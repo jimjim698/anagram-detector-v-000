@@ -15,8 +15,8 @@ words.each do |word|
   if split_name.sort == split_letters
     new_array<<split_letters.join
   end
-new_array
 end
+new_array
 end
 
 
